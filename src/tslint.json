@@ -9,9 +9,9 @@
     ],
     "component-selector": [
       true,
-      "element",
+      "attribute",
       "app",
-      "kebab-case"
+      "camelCase"
     ]
   }
 }
