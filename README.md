@@ -73,14 +73,26 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <a href="/ngx-translate/core" target="_blank">ngx-translate</a>
+        <a href="/ngx-translate/core" target="_blank">@ngx-translate/core</a>
       </td>
       <td>
       latest: <img src="https://badge.fury.io/js/%40ngx-translate%2Fcore.svg"/>
       current: <b>11.0.1</b>
       </td>
       <td align="center" valign="middle">
-        To centralize texts in one place, and facilitate possible translations into other languages
+        For centralize texts in one place, and facilitate possible translations into other languages
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="/angular/in-memory-web-api" target="_blank">@angular/in-memory-web-api</a>
+      </td>
+      <td>
+      latest: <img src="https://badge.fury.io/js/%40in-memory-web-api.svg"/>
+      current: <b>0.9.0</b>
+      </td>
+      <td align="center" valign="middle">
+        For demos and make mocks that emulates CRUD operations
       </td>
     </tr>
   </tbody>
