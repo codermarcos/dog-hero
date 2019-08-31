@@ -88,7 +88,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
         <a href="/angular/in-memory-web-api" target="_blank">@angular/in-memory-web-api</a>
       </td>
       <td>
-      latest: <img src="https://badge.fury.io/js/%40in-memory-web-api.svg"/>
+      latest: <img src="https://badge.fury.io/js/angular-in-memory-web-api.svg"/>
       current: <b>0.9.0</b>
       </td>
       <td align="center" valign="middle">
