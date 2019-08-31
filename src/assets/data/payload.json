@@ -1,0 +1,706 @@
+{
+  "lists" :[
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Os cachorros são sinceros, amorosos e confiáveis. O ser humano tem muito o que aprender com eles. Por isso gosto de receber esses seres maravilhosos em casa pra poder adquirir dele…",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165085,
+      "is_superhero": false,
+      "last_review": {
+        "body": "Foi a melhor escolha q eu fiz!! O Zezinho foi super bem cuidado. Super recomendo!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Julia"
+      },
+      "locale": {"country": "bra", "price": 50, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 8,
+      "title": "Find love here",
+      "user": {
+        "first_name": "Thiago",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": false,
+      "chopped_desc": "Olá! Temos o enorme prazer em cuidar do seu cão quando você precisar. Pode ser em qualquer dia da semana. Se...",
+      "highlights": [
+        {"name": "loyal_customers", "value": "2"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": false,
+      "id": 165000,
+      "is_superhero": true,
+      "last_review": {
+        "body": "O Jeremiah foi super atencioso durante toda a estadia da Nina!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 65, "currency": "BRL"},
+      "rating": 0,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 0,
+      "title": "Lar cheio de amor",
+      "user": {
+        "first_name": "Jeremiah",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Temos o enorme prazer em cuidar do seu cão quando você precisar.",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165009,
+      "is_superhero": true,
+      "last_review": {
+        "body": "A Lorena foi super atenciosa durante toda a estadia da Sushi!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 70, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 2,
+      "title": "Amor para o seu pet",
+      "user": {
+        "first_name": "Lorena",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Os cachorros são sinceros, amorosos e confiáveis. O ser humano tem muito o que aprender com eles. Por isso gosto de receber esses seres maravilhosos em casa pra poder adquirir dele…",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165085,
+      "is_superhero": false,
+      "last_review": {
+        "body": "Foi a melhor escolha q eu fiz!! O Zezinho foi super bem cuidado. Super recomendo!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Julia"
+      },
+      "locale": {"country": "bra", "price": 50, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 8,
+      "title": "Find love here",
+      "user": {
+        "first_name": "Thiago",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": false,
+      "chopped_desc": "Olá! Temos o enorme prazer em cuidar do seu cão quando você precisar. Pode ser em qualquer dia da semana. Se...",
+      "highlights": [
+        {"name": "loyal_customers", "value": "2"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": false,
+      "id": 165000,
+      "is_superhero": true,
+      "last_review": {
+        "body": "O Jeremiah foi super atencioso durante toda a estadia da Nina!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 65, "currency": "BRL"},
+      "rating": 0,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 0,
+      "title": "Lar cheio de amor",
+      "user": {
+        "first_name": "Jeremiah",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Temos o enorme prazer em cuidar do seu cão quando você precisar.",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165009,
+      "is_superhero": true,
+      "last_review": {
+        "body": "A Lorena foi super atenciosa durante toda a estadia da Sushi!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 70, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 2,
+      "title": "Amor para o seu pet",
+      "user": {
+        "first_name": "Lorena",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Os cachorros são sinceros, amorosos e confiáveis. O ser humano tem muito o que aprender com eles. Por isso gosto de receber esses seres maravilhosos em casa pra poder adquirir dele…",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165085,
+      "is_superhero": false,
+      "last_review": {
+        "body": "Foi a melhor escolha q eu fiz!! O Zezinho foi super bem cuidado. Super recomendo!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Julia"
+      },
+      "locale": {"country": "bra", "price": 50, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 8,
+      "title": "Find love here",
+      "user": {
+        "first_name": "Thiago",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": false,
+      "chopped_desc": "Olá! Temos o enorme prazer em cuidar do seu cão quando você precisar. Pode ser em qualquer dia da semana. Se...",
+      "highlights": [
+        {"name": "loyal_customers", "value": "2"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": false,
+      "id": 165000,
+      "is_superhero": true,
+      "last_review": {
+        "body": "O Jeremiah foi super atencioso durante toda a estadia da Nina!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 65, "currency": "BRL"},
+      "rating": 0,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 0,
+      "title": "Lar cheio de amor",
+      "user": {
+        "first_name": "Jeremiah",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Temos o enorme prazer em cuidar do seu cão quando você precisar.",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165009,
+      "is_superhero": true,
+      "last_review": {
+        "body": "A Lorena foi super atenciosa durante toda a estadia da Sushi!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 70, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 2,
+      "title": "Amor para o seu pet",
+      "user": {
+        "first_name": "Lorena",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Os cachorros são sinceros, amorosos e confiáveis. O ser humano tem muito o que aprender com eles. Por isso gosto de receber esses seres maravilhosos em casa pra poder adquirir dele…",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165085,
+      "is_superhero": false,
+      "last_review": {
+        "body": "Foi a melhor escolha q eu fiz!! O Zezinho foi super bem cuidado. Super recomendo!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Julia"
+      },
+      "locale": {"country": "bra", "price": 50, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 8,
+      "title": "Find love here",
+      "user": {
+        "first_name": "Thiago",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": false,
+      "chopped_desc": "Olá! Temos o enorme prazer em cuidar do seu cão quando você precisar. Pode ser em qualquer dia da semana. Se...",
+      "highlights": [
+        {"name": "loyal_customers", "value": "2"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": false,
+      "id": 165000,
+      "is_superhero": true,
+      "last_review": {
+        "body": "O Jeremiah foi super atencioso durante toda a estadia da Nina!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 65, "currency": "BRL"},
+      "rating": 0,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 0,
+      "title": "Lar cheio de amor",
+      "user": {
+        "first_name": "Jeremiah",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Temos o enorme prazer em cuidar do seu cão quando você precisar.",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165009,
+      "is_superhero": true,
+      "last_review": {
+        "body": "A Lorena foi super atenciosa durante toda a estadia da Sushi!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 70, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 2,
+      "title": "Amor para o seu pet",
+      "user": {
+        "first_name": "Lorena",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Os cachorros são sinceros, amorosos e confiáveis. O ser humano tem muito o que aprender com eles. Por isso gosto de receber esses seres maravilhosos em casa pra poder adquirir dele…",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165085,
+      "is_superhero": false,
+      "last_review": {
+        "body": "Foi a melhor escolha q eu fiz!! O Zezinho foi super bem cuidado. Super recomendo!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Julia"
+      },
+      "locale": {"country": "bra", "price": 50, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 8,
+      "title": "Find love here",
+      "user": {
+        "first_name": "Thiago",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": false,
+      "chopped_desc": "Olá! Temos o enorme prazer em cuidar do seu cão quando você precisar. Pode ser em qualquer dia da semana. Se...",
+      "highlights": [
+        {"name": "loyal_customers", "value": "2"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": false,
+      "id": 165000,
+      "is_superhero": true,
+      "last_review": {
+        "body": "O Jeremiah foi super atencioso durante toda a estadia da Nina!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 65, "currency": "BRL"},
+      "rating": 0,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 0,
+      "title": "Lar cheio de amor",
+      "user": {
+        "first_name": "Jeremiah",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Temos o enorme prazer em cuidar do seu cão quando você precisar.",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165009,
+      "is_superhero": true,
+      "last_review": {
+        "body": "A Lorena foi super atenciosa durante toda a estadia da Sushi!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 70, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 2,
+      "title": "Amor para o seu pet",
+      "user": {
+        "first_name": "Lorena",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Os cachorros são sinceros, amorosos e confiáveis. O ser humano tem muito o que aprender com eles. Por isso gosto de receber esses seres maravilhosos em casa pra poder adquirir dele…",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165085,
+      "is_superhero": false,
+      "last_review": {
+        "body": "Foi a melhor escolha q eu fiz!! O Zezinho foi super bem cuidado. Super recomendo!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Julia"
+      },
+      "locale": {"country": "bra", "price": 50, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 8,
+      "title": "Find love here",
+      "user": {
+        "first_name": "Thiago",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": false,
+      "chopped_desc": "Olá! Temos o enorme prazer em cuidar do seu cão quando você precisar. Pode ser em qualquer dia da semana. Se...",
+      "highlights": [
+        {"name": "loyal_customers", "value": "2"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": false,
+      "id": 165000,
+      "is_superhero": true,
+      "last_review": {
+        "body": "O Jeremiah foi super atencioso durante toda a estadia da Nina!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 65, "currency": "BRL"},
+      "rating": 0,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 0,
+      "title": "Lar cheio de amor",
+      "user": {
+        "first_name": "Jeremiah",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Temos o enorme prazer em cuidar do seu cão quando você precisar.",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165009,
+      "is_superhero": true,
+      "last_review": {
+        "body": "A Lorena foi super atenciosa durante toda a estadia da Sushi!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 70, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 2,
+      "title": "Amor para o seu pet",
+      "user": {
+        "first_name": "Lorena",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Os cachorros são sinceros, amorosos e confiáveis. O ser humano tem muito o que aprender com eles. Por isso gosto de receber esses seres maravilhosos em casa pra poder adquirir dele…",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165085,
+      "is_superhero": false,
+      "last_review": {
+        "body": "Foi a melhor escolha q eu fiz!! O Zezinho foi super bem cuidado. Super recomendo!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Julia"
+      },
+      "locale": {"country": "bra", "price": 50, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 8,
+      "title": "Find love here",
+      "user": {
+        "first_name": "Thiago",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": false,
+      "chopped_desc": "Olá! Temos o enorme prazer em cuidar do seu cão quando você precisar. Pode ser em qualquer dia da semana. Se...",
+      "highlights": [
+        {"name": "loyal_customers", "value": "2"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": false,
+      "id": 165000,
+      "is_superhero": true,
+      "last_review": {
+        "body": "O Jeremiah foi super atencioso durante toda a estadia da Nina!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 65, "currency": "BRL"},
+      "rating": 0,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 0,
+      "title": "Lar cheio de amor",
+      "user": {
+        "first_name": "Jeremiah",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Temos o enorme prazer em cuidar do seu cão quando você precisar.",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165009,
+      "is_superhero": true,
+      "last_review": {
+        "body": "A Lorena foi super atenciosa durante toda a estadia da Sushi!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 70, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 2,
+      "title": "Amor para o seu pet",
+      "user": {
+        "first_name": "Lorena",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Os cachorros são sinceros, amorosos e confiáveis. O ser humano tem muito o que aprender com eles. Por isso gosto de receber esses seres maravilhosos em casa pra poder adquirir dele…",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165085,
+      "is_superhero": false,
+      "last_review": {
+        "body": "Foi a melhor escolha q eu fiz!! O Zezinho foi super bem cuidado. Super recomendo!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Julia"
+      },
+      "locale": {"country": "bra", "price": 50, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 8,
+      "title": "Find love here",
+      "user": {
+        "first_name": "Thiago",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": false,
+      "chopped_desc": "Olá! Temos o enorme prazer em cuidar do seu cão quando você precisar. Pode ser em qualquer dia da semana. Se...",
+      "highlights": [
+        {"name": "loyal_customers", "value": "2"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": false,
+      "id": 165000,
+      "is_superhero": true,
+      "last_review": {
+        "body": "O Jeremiah foi super atencioso durante toda a estadia da Nina!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 65, "currency": "BRL"},
+      "rating": 0,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 0,
+      "title": "Lar cheio de amor",
+      "user": {
+        "first_name": "Jeremiah",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Temos o enorme prazer em cuidar do seu cão quando você precisar.",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165009,
+      "is_superhero": true,
+      "last_review": {
+        "body": "A Lorena foi super atenciosa durante toda a estadia da Sushi!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 70, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 2,
+      "title": "Amor para o seu pet",
+      "user": {
+        "first_name": "Lorena",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Os cachorros são sinceros, amorosos e confiáveis. O ser humano tem muito o que aprender com eles. Por isso gosto de receber esses seres maravilhosos em casa pra poder adquirir dele…",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165085,
+      "is_superhero": false,
+      "last_review": {
+        "body": "Foi a melhor escolha q eu fiz!! O Zezinho foi super bem cuidado. Super recomendo!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Julia"
+      },
+      "locale": {"country": "bra", "price": 50, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 8,
+      "title": "Find love here",
+      "user": {
+        "first_name": "Thiago",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": false,
+      "chopped_desc": "Olá! Temos o enorme prazer em cuidar do seu cão quando você precisar. Pode ser em qualquer dia da semana. Se...",
+      "highlights": [
+        {"name": "loyal_customers", "value": "2"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": false,
+      "id": 165000,
+      "is_superhero": true,
+      "last_review": {
+        "body": "O Jeremiah foi super atencioso durante toda a estadia da Nina!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 65, "currency": "BRL"},
+      "rating": 0,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 0,
+      "title": "Lar cheio de amor",
+      "user": {
+        "first_name": "Jeremiah",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    },
+    {
+      "availability_confirmed": true,
+      "chopped_desc": "Temos o enorme prazer em cuidar do seu cão quando você precisar.",
+      "highlights": [
+        {"name": "loyal_customers", "value": "4"}, 
+        {"name": "room_type", "value": "Apartment"}, 
+        {"name": "supervision", "value": null}
+      ],
+      "favorite": true,
+      "id": 165009,
+      "is_superhero": true,
+      "last_review": {
+        "body": "A Lorena foi super atenciosa durante toda a estadia da Sushi!",
+        "client_image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/2409131/DH_30102018170506576_1341.png?w=135&h=135",
+        "client_name": "Fábio"
+      },
+      "locale": {"country": "bra", "price": 70, "currency": "BRL"},
+      "rating": 5,
+      "region_address": "Vila Mariana, São Paulo-SP",
+      "reviews_count": 2,
+      "title": "Amor para o seu pet",
+      "user": {
+        "first_name": "Lorena",
+        "image_url": "https://media.doghero.com.br/i/doghero-uploads/uploads/photo/158365/531979_450544295021573_2024332009_n.jpg?w=135&h=135"
+      }
+    }
+  ]
+}
