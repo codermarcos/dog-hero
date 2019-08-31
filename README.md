@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.doghero.com.br/" target="_blank" rel="noopener noreferrer">
-    <img width="100" src="src/assets/images/group-5@3x.png" alt="Dog Hero Logo">
+    <img width="300" src="src/assets/images/group-5@3x.png" alt="Dog Hero Logo">
   </a>
 </p>
 
