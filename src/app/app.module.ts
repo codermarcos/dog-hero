@@ -7,8 +7,9 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { AppComponent } from 'src/app/app.component';
 
 import { I18nModule } from 'src/app/i18n/i18n.module';
-import { MockService } from 'src/app/services/mock.service';
 import { SharedModule } from 'src/app/shared/shared.module';
+
+import { MockService } from 'src/app/services/mock/mock.service';
 
 @NgModule({
   declarations: [
