@@ -1,35 +1,68 @@
+import { Observable } from 'rxjs';
 import { TestBed, async } from '@angular/core/testing';
-import { RouterTestingModule } from '@angular/router/testing';
-import { AppComponent } from './app.component';
 
-describe('AppComponent', () => {
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      imports: [
-        RouterTestingModule
-      ],
-      declarations: [
-        AppComponent
-      ],
-    }).compileComponents();
-  }));
+import { Hosts } from 'src/models/hosts';
+import { AppComponent } from 'src/app/app.component';
+import { HostsService } from 'src/app/services/hosts/hosts.service';
 
-  it('should create the app', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app).toBeTruthy();
+describe(
+  'AppComponent',
+  () => {
+    let hostService: Partial<HostsService>;
+    beforeEach(
+      async(
+        () => {
+          hostService = {
+            get(id: string = '', params?: object): Observable<Hosts> { return; }
+          };
+
+          spyOn(hostService, 'get').and.returnValue({});
+
+          TestBed
+            .configureTestingModule({
+              declarations: [
+                AppComponent,
+              ],
+              providers: [
+                {
+                  provide: HostsService,
+                  useValue: hostService,
+                }
+              ],
+            })
+            .compileComponents();
+        }
+      )
+    );
+
+    it(
+      'should create the app',
+      () => {
+        const fixture = TestBed.createComponent(AppComponent);
+        const app = fixture.debugElement.componentInstance;
+        expect(app).toBeTruthy();
+      }
+    );
+
+    it(
+      `should have a function 'search'`,
+      () => {
+        const fixture = TestBed.createComponent<AppComponent>(AppComponent);
+        const component = fixture.componentInstance;
+        expect(typeof component.search).toBe('function');
+      }
+    );
+
+    it(
+      'should render correct component at header',
+      () => {
+        const fixture = TestBed.createComponent<AppComponent>(AppComponent);
+
+        fixture.detectChanges();
+
+        const compiled = fixture.nativeElement;
+
+        expect(compiled.querySelector('header').hasAttribute('appMainHeader')).toBeTruthy();
+      }
+    );
   });
-
-  it(`should have as title 'test-dog-hero'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('test-dog-hero');
-  });
-
-  it('should render title in a h1 tag', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to test-dog-hero!');
-  });
-});
