@@ -1,25 +1,46 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { Pipe, PipeTransform } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 
-import { MainHeaderComponent } from './main-header.component';
+import { MainHeaderComponent } from 'src/app/shared/components/main-header/main-header.component';
 
-describe('MainHeaderComponent', () => {
-  let component: MainHeaderComponent;
-  let fixture: ComponentFixture<MainHeaderComponent>;
+describe(
+  'MainHeaderComponent',
+  () => {
+    let component: MainHeaderComponent;
+    let fixture: ComponentFixture<MainHeaderComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [ MainHeaderComponent ]
-    })
-    .compileComponents();
-  }));
+    beforeEach(
+      async(
+        () => {
 
-  beforeEach(() => {
-    fixture = TestBed.createComponent(MainHeaderComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+          @Pipe({ name: 'translate' })
+          class TranslateMock implements PipeTransform {
+            transform(): string {
+              return 'translated';
+            }
+          }
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+          TestBed
+            .configureTestingModule({
+              declarations: [
+                MainHeaderComponent,
+                TranslateMock,
+              ],
+            })
+            .compileComponents();
+        }
+      )
+    );
+
+    beforeEach(() => {
+      fixture = TestBed.createComponent(MainHeaderComponent);
+      component = fixture.componentInstance;
+      fixture.detectChanges();
+    });
+
+    it('should create', () => {
+      expect(component).toBeTruthy();
+    });
+  }
+);

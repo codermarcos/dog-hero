@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainHeaderComponent implements OnInit {
 
+  public open = false;
+
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
+  public toggle(force: boolean): void {
+    this.open = typeof force === 'boolean' ? force : !this.open;
+  }
 }
