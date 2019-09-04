@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HostsService } from './services/hosts/hosts.service';
 
 @Component({
   selector: 'body[appMain]',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'test-dog-hero';
+
+  constructor(
+    private hosts: HostsService
+  ) {}
+
+  public search() {
+    this.hosts.get().subscribe(e => console.log(e));
+  }
 }
