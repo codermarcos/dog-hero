@@ -32,6 +32,7 @@
       }
     ],
     "no-consecutive-blank-lines": false,
+    "no-unused-expression": false,
     "no-console": [
       true,
       "debug",
