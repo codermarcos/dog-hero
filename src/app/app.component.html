@@ -1,5 +1,8 @@
 <header appMainHeader></header>
 <main>
-  <form appSearchBox (submit)="search()"></form>
+  <form appSearchBox (submit)="search($event)"></form>
+  <ul>
+    <li *ngFor="let hero of heroes" appCardHero [hero]="hero"></li>
+  </ul>
 </main>
 <footer></footer>
