@@ -2,6 +2,7 @@
   "name": "dog-hero",
   "version": "0.0.0",
   "scripts": {
+    "coverage": "ng test --code-coverage --watch=false",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -23,6 +24,7 @@
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@ngx-translate/core": "^11.0.1",
     "@ngx-translate/http-loader": "^4.0.0",
+    "@yellowspot/ng-truncate": "^1.5.0",
     "angular-in-memory-web-api": "^0.9.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
