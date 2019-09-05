@@ -4,7 +4,9 @@ import { TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 export const loader: Provider = {
-  useFactory: (http: HttpClient) => new TranslateHttpLoader(http, './i18n/', '.json'),
+  useFactory(http: HttpClient) {
+    return new TranslateHttpLoader(http, './i18n/', '.json');
+  },
   provide: TranslateLoader,
   deps: [HttpClient]
 };
