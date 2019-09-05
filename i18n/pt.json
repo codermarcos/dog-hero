@@ -1,0 +1,28 @@
+{
+  "app": {
+    "header": {
+      "open": "Clique aqui para abrir o menu",
+      "logo": "Logo Dog Hero",
+      "menu": [
+        "Entrar",
+        "Quero ser anfitrião",
+        "Blog",
+        "DogHero Store",
+        "Como funciona",
+        "Ajuda"
+      ]
+    },
+    "searchBox": {
+      "startDate": "Data de entrada",
+      "endDate": "Data de saida",
+      "address": "Endereço",
+      "filters": "Filtros",
+      "search": "Buscar"
+    },
+    "cardHero": {
+      "footer": {
+        "call": "Conversar com"
+      }
+    }
+  }
+}
