@@ -1,0 +1,27 @@
+<div class="card-hero__header">
+  <figure>
+    <img [src]="hero.user?.image_url">
+  </figure>
+  <div>
+    <h3>{{ hero.user?.first_name }}</h3>
+    <p>{{ hero.title | truncate : 16 : '...' }}</p>
+    <address>{{ hero.region_address }}</address>
+  </div>
+  <div>
+    <h4>
+      <sub>R$</sub>{{ hero.locale?.price }}
+    </h4>
+    <p>p/ noite</p>
+  </div>
+</div>
+<div class="card-hero__last-review">
+  <blockquote>
+    <p>{{ hero.last_review?.body }}</p>
+  </blockquote>
+  <figure>
+    <img [src]="hero.last_review?.client_image_url">
+  </figure>
+</div>
+<div class="card-hero__footer">
+  <button>{{ 'app.cardHero.footer.call' | translate }} {{ hero.user?.first_name }}</button>
+</div>
