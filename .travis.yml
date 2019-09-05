@@ -13,6 +13,7 @@ install:
   - npm i
 
 script:
+  - npm run build:prod
   - npm run coverage
   - codecov
 
