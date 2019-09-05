@@ -22,7 +22,7 @@ export interface User {
   image_url: string;
 }
 
-export interface Host {
+export interface Hero {
   availability_confirmed: boolean;
   chopped_desc: string;
   highlights: Highlight[];
@@ -38,4 +38,4 @@ export interface Host {
   user: User;
 }
 
-export interface Hosts extends Array<Host> {}
+export interface Heroes extends Array<Hero> {}

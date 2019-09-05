@@ -1,9 +1,9 @@
 import { TestBed } from '@angular/core/testing';
 import { HttpClientModule } from '@angular/common/http';
 
-import { HostsService } from 'src/app/services/hosts/hosts.service';
+import { HeroService } from 'src/app/services/hero/hero.service';
 
-describe('HostsService', () => {
+describe('HeroesService', () => {
   beforeEach(
     () => TestBed
       .configureTestingModule({
@@ -16,7 +16,7 @@ describe('HostsService', () => {
   it(
     'should be created',
     () => {
-      const service: HostsService = TestBed.get(HostsService);
+      const service: HeroService = TestBed.get(HeroService);
       expect(service).toBeTruthy();
     }
   );

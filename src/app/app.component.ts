@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { HostsService } from './services/hosts/hosts.service';
+import { HeroService } from './services/hero/hero.service';
+import { Heroes } from 'src/models/heroes';
 
 @Component({
   selector: 'body[appMain]',
@@ -8,11 +9,15 @@ import { HostsService } from './services/hosts/hosts.service';
 })
 export class AppComponent {
 
-  constructor(
-    private hosts: HostsService
-  ) {}
+  public heroes: Heroes = [];
 
-  public search() {
-    this.hosts.get().subscribe(e => console.log(e));
+  constructor(
+    private hero: HeroService
+  ) {
+    this.search({ region_address: 'V' });
+  }
+
+  public search(filters: { [key: string]: string }) {
+    this.hero.get(filters).subscribe(e => this.heroes = e);
   }
 }

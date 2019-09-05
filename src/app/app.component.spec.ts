@@ -1,32 +1,42 @@
 import { Observable } from 'rxjs';
+import { Component, Input } from '@angular/core';
 import { TestBed, async } from '@angular/core/testing';
 
-import { Hosts } from 'src/models/hosts';
+import { Heroes } from 'src/models/heroes';
 import { AppComponent } from 'src/app/app.component';
-import { HostsService } from 'src/app/services/hosts/hosts.service';
+import { HeroService } from 'src/app/services/hero/hero.service';
 
 describe(
   'AppComponent',
   () => {
-    let hostService: Partial<HostsService>;
+    let heroService: Partial<HeroService>;
     beforeEach(
       async(
         () => {
-          hostService = {
-            get(id: string = '', params?: object): Observable<Hosts> { return; }
+          heroService = {
+            get(params?: object, id: string = ''): Observable<Heroes> { return; }
           };
 
-          spyOn(hostService, 'get').and.returnValue({});
+          @Component({
+            selector: '[appCardHero]',
+            template: '{{hero}}'
+          })
+          class CardHeroComponent {
+            @Input() hero;
+          }
+
+          spyOn(heroService, 'get').and.returnValue({ subscribe() {} });
 
           TestBed
             .configureTestingModule({
               declarations: [
+                CardHeroComponent,
                 AppComponent,
               ],
               providers: [
                 {
-                  provide: HostsService,
-                  useValue: hostService,
+                  provide: HeroService,
+                  useValue: heroService,
                 }
               ],
             })
