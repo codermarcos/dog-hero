@@ -1,3 +1,26 @@
-<p>
-  search-box works!
-</p>
+<div class="form__field">
+  <label>
+    <i class="icon icon-location"></i>
+    <input type="text" [placeholder]="'app.searchBox.address' | translate" [formControl]="address">
+  </label>
+</div>
+
+<div class="form__group">
+  <label>
+    <i class="icon icon-calendar"></i>
+    <input type="date" [placeholder]="'app.searchBox.startDate' | translate" [formControl]="startDate">
+  </label>
+  <label>
+    <i class="icon icon-calendar"></i>
+    <input type="date" [placeholder]="'app.searchBox.endDate' | translate" [formControl]="endDate">
+  </label>
+</div>
+
+<div class="form__buttons">
+  <button type="button" class="default">
+    <i class="icon icon-filter"></i>{{ 'app.searchBox.filters' | translate }}
+  </button>
+  <button type="button" class="primary" (click)="send()">
+    <i class="icon icon-search"></i>{{ 'app.searchBox.search' | translate }}
+  </button>
+</div>
