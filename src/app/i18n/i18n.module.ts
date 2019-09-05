@@ -1,7 +1,16 @@
-import { NgModule, ModuleWithProviders } from '@angular/core';
+import { NgModule, Provider, ModuleWithProviders } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
+import { HttpClient } from '@angular/common/http';
+import { TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
-import { loader } from './loader.translate';
+export const loader: Provider = {
+  useFactory(http: HttpClient) {
+    return new TranslateHttpLoader(http, './i18n/', '.json')
+  },
+  provide: TranslateLoader,
+  deps: [HttpClient]
+};
 
 @NgModule({
   imports: [TranslateModule.forRoot({ loader })],
