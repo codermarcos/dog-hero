@@ -1,0 +1,18 @@
+button {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.38;
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+
+  &.default {
+    color: #fff;
+    background-color: #7f8185;
+  }
+
+  &.primary {
+    color: #fff;
+    background-color: #ef3a5d;
+  }
+}
