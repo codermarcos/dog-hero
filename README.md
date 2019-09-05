@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://circleci.com/gh/vuejs/vue/tree/dev">
-    <img src="https://img.shields.io/circleci/project/github/vuejs/vue/dev.svg" alt="Build Status">
+  <a href="https://travis-ci.org/codermarcos/dog-hero">
+    <img src="https://travis-ci.org/codermarcos/dog-hero.svg?branch=master" alt="Build Status">
   </a>
   <a href="https://codecov.io/github/vuejs/vue?branch=dev">
     <img src="https://img.shields.io/codecov/c/github/vuejs/vue/dev.svg" alt="Coverage Status">
@@ -90,6 +90,18 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
       <td>
       latest: <img src="https://badge.fury.io/js/angular-in-memory-web-api.svg"/>
       current: <b>0.9.0</b>
+      </td>
+      <td align="center" valign="middle">
+        For demos and make mocks that emulates CRUD operations
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="/yellowspot/ng2-truncate" target="_blank">@yellowspot/ng-truncate</a>
+      </td>
+      <td>
+      latest: <img src="https://badge.fury.io/js/@yellowspot/ng-truncate.svg"/>
+      current: <b>1.5.0</b>
       </td>
       <td align="center" valign="middle">
         For demos and make mocks that emulates CRUD operations
