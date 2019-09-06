@@ -2,8 +2,9 @@
   "name": "dog-hero",
   "version": "0.0.0",
   "scripts": {
-    "coverage": "ng test --code-coverage --watch=false",
     "build:prod": "ng build --prod --base-href https://codermarcos.github.io/dog-hero/",
+    "deploy": "npx angular-cli-ghpages --dir=dist/dog-hero --repo=https://$GH_TOKEN@github.com/codermarcos/dog-hero.git",
+    "coverage": "ng test --code-coverage --watch=false",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -26,8 +27,10 @@
     "@ngx-translate/core": "^11.0.1",
     "@ngx-translate/http-loader": "^4.0.0",
     "@yellowspot/ng-truncate": "^1.5.0",
+    "angular-cli-ghpages": "^0.5.3",
     "angular-in-memory-web-api": "^0.9.0",
     "core-js": "^2.5.4",
+    "ngx-pagination": "^4.1.0",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
