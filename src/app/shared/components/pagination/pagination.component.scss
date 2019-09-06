@@ -1,0 +1,29 @@
+@import 'variables';
+
+:host {
+  display: flex;
+  border-radius: .25rem;
+  border: 1px solid $primaryColor;
+}
+
+li {
+  border-left: 1px solid $primaryColor;
+
+  &.active {
+    background-color: $primaryColor;
+    button {
+      color: #fff;
+    }
+  }
+
+  &:first-child {
+    border: none;
+  }
+
+  button {
+    border: none;
+    color: $primaryColor;
+    padding: 8px 10px;
+    background-color: transparent;
+  }
+}

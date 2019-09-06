@@ -1,0 +1,3 @@
+<li *ngFor="let e of counter(pages);let i = index;" [ngClass]="{ active: page === (i + 1) }">
+  <button (click)="change.emit(i + 1)">{{ i + 1 }}</button>
+</li>
