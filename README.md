@@ -8,8 +8,8 @@
   <a href="https://travis-ci.org/codermarcos/dog-hero">
     <img src="https://travis-ci.org/codermarcos/dog-hero.svg?branch=master" alt="Build Status">
   </a>
-  <a href="https://codecov.io/github/vuejs/vue?branch=dev">
-    <img src="https://img.shields.io/codecov/c/github/vuejs/vue/dev.svg" alt="Coverage Status">
+  <a href="https://codecov.io/gh/codermarcos/dog-hero">
+    <img src="https://codecov.io/gh/codermarcos/dog-hero/branch/master/graph/badge.svg" />
   </a>
   <a href="https://wa.me/5511971353293">
     <img src="https://img.shields.io/badge/chat-on%20whatsapp-7289da.svg" alt="whatsapp">
