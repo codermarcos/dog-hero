@@ -1,7 +1,11 @@
-
+export enum HighlightName {
+  loyal_customers = 'repeat-guests',
+  supervision = '24h',
+  room_type = 'flat',
+}
 
 export interface Highlight {
-  name: string;
+  name: HighlightName;
   value: string;
 }
 
