@@ -104,7 +104,19 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
       current: <b>1.5.0</b>
       </td>
       <td align="center" valign="middle">
-        For demos and make mocks that emulates CRUD operations
+        For cut longer texts
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="/ng2-truncate" target="_blank">ngx-pagination</a>
+      </td>
+      <td>
+      latest: <img src="https://badge.fury.io/js/@yellowspot/ng-truncate.svg"/>
+      current: <b>1.5.0</b>
+      </td>
+      <td align="center" valign="middle">
+        For paginate ng for paginate array
       </td>
     </tr>
   </tbody>
