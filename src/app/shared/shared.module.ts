@@ -13,9 +13,14 @@ import {
 import {
   CardHeroComponent
 } from 'src/app/shared/components/card-hero/card-hero.component';
+import {
+  PaginationComponent
+} from 'src/app/shared/components/pagination/pagination.component';
 
 const shared: (any[] | Type<any>)[] = [
   MainHeaderComponent,
+  PaginationComponent,
+  PaginationComponent,
   SearchBoxComponent,
   CardHeroComponent,
 ];
