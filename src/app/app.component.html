@@ -2,7 +2,10 @@
 <main>
   <form appSearchBox (submit)="search($event)"></form>
   <ul>
-    <li *ngFor="let hero of heroes" appCardHero [hero]="hero"></li>
+    <li *ngFor="let hero of heroes | paginate: { itemsPerPage: paginator, currentPage: page }" appCardHero [hero]="hero"></li>
   </ul>
+  <div class="pagination">
+    <ol appPagination [items]="heroes.length" [paginator]="paginator" [page]="page" (change)="page = $event"></ol>
+  </div>
 </main>
 <footer></footer>

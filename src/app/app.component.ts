@@ -9,15 +9,17 @@ import { Heroes } from 'src/models/heroes';
 })
 export class AppComponent {
 
+  public readonly paginator = 4;
   public heroes: Heroes = [];
+  public page = 1;
 
   constructor(
     private hero: HeroService
-  ) {
-    this.search({ region_address: 'V' });
-  }
+  ) {}
 
   public search(filters: { [key: string]: string }) {
-    this.hero.get(filters).subscribe(e => this.heroes = e);
+    this.hero
+      .get(filters)
+      .subscribe(heros => this.heroes = heros);
   }
 }
