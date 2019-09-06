@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { NgxPaginationModule } from 'ngx-pagination';
 import { TranslateService } from '@ngx-translate/core';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
@@ -19,6 +20,7 @@ import { HeroService } from 'src/app/services/hero/hero.service';
   imports: [
     InMemoryWebApiModule.forRoot(MockService, { passThruUnknownUrl: true }),
     I18nModule.forRoot(),
+    NgxPaginationModule,
     HttpClientModule,
     BrowserModule,
     SharedModule,
