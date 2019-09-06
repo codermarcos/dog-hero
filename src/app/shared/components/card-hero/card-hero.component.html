@@ -1,13 +1,21 @@
 <div class="card-hero__header">
-  <figure>
+  <figure class="card-hero__photo">
     <img [src]="hero.user?.image_url">
   </figure>
-  <div>
+  <div class="card-hero__profile">
     <h3>{{ hero.user?.first_name }}</h3>
     <p>{{ hero.title | truncate : 16 : '...' }}</p>
     <address>{{ hero.region_address }}</address>
+    <div>
+      <i [ngClass]="['icon icon-full-star1x', hero.rating > 0 ? 'active':'']"></i>
+      <i [ngClass]="['icon icon-full-star1x', hero.rating > 1 ? 'active':'']"></i>
+      <i [ngClass]="['icon icon-full-star1x', hero.rating > 2 ? 'active':'']"></i>
+      <i [ngClass]="['icon icon-full-star1x', hero.rating > 3 ? 'active':'']"></i>
+      <i [ngClass]="['icon icon-full-star1x', hero.rating > 4 ? 'active':'']"></i>
+      <span>({{ hero.reviews_count }})</span>
+    </div>
   </div>
-  <div>
+  <div class="card-hero__price">
     <h4>
       <sub>R$</sub>{{ hero.locale?.price }}
     </h4>
@@ -16,12 +24,12 @@
 </div>
 <div class="card-hero__last-review">
   <blockquote>
-    <p>{{ hero.last_review?.body }}</p>
+    <p>{{ hero.last_review?.body | truncate : 60 : '...' }}</p>
   </blockquote>
-  <figure>
+  <figure class="card-hero__photo">
     <img [src]="hero.last_review?.client_image_url">
   </figure>
 </div>
 <div class="card-hero__footer">
-  <button>{{ 'app.cardHero.footer.call' | translate }} {{ hero.user?.first_name }}</button>
+  <a class="button" href="https://wa.me/5511971353293">{{ 'app.cardHero.footer.call' | translate }} {{ hero.user?.first_name }}</a>
 </div>

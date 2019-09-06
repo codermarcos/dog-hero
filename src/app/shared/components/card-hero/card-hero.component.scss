@@ -1,7 +1,11 @@
+@import 'variables';
+
 :host {
+  background-color: #fff;
   display: flex;
   flex-wrap: wrap;
   padding: 16px;
+  margin-bottom: 16px;
 }
 
 .card-hero__header,
@@ -36,23 +40,57 @@
     line-height: 1.4;
     color: rgba(0, 0, 0, 0.42);
   }
+
+  .card-hero__profile {
+    flex-grow: 1;
+    span {
+      font-size: 12px;
+      line-height: 16.8px;
+      color: $primaryColor;
+    }
+    .icon {
+      color: #999;
+      &.active {
+        color: $primaryColor;
+      }
+    }
+  }
+  .card-hero__price {
+    justify-content: flex-end;
+    flex-flow: column;
+    display: flex;
+    font-weight: bold;
+    color: $primaryColor;
+    font-size: 26px;
+    sub {
+      font-size: 12px;
+      font-family: 'Open Sans';
+    }
+  }
 }
 
 .card-hero__last-review {
+  margin-top: 15px;
+
   blockquote {
     width: 88.5%;
     padding: 14px 16px;
     background-color: #f0f1f1;
     border-radius: 5px;
     margin-right: 10px;
-    font-size: 1rem;
+    font-size: 14px;
     font-style: italic;
+    font-family: 'Open Sans';
     line-height: 1.29;
     position: relative;
     color: rgba(0, 0, 0, 0.66);
 
+    p {
+      font: inherit;
+    }
+
     &::after {
-      content: "";
+      content: '';
       width: 0;
       height: 0;
       border-color: #f0f1f1 transparent transparent;
@@ -65,16 +103,31 @@
     }
   }
   figure {
-    width: 11.5%;
+    width: 32px;
     height: max-content;
   }
 }
 
-figure {
+.card-hero__photo {
   overflow: hidden;
   border-radius: 100%;
 
   img {
     width: 100%;
+  }
+}
+
+.card-hero__footer {
+  .button {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background-color: transparent;
+    margin-top: 18px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: $formHeight;
+    color: $primaryColor;
   }
 }
