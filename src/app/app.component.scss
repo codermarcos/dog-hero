@@ -1,5 +1,39 @@
+@import 'variables';
+
 :host {
   background-color: #f7f5f7;
+}
+
+.list-heros {
+
+  li {
+    margin-bottom: 16px;
+
+    &.list-heros--empty {
+      color: $neutralColor;
+      text-align: center;
+      padding: 15px 0;
+    }
+    &.list-heros--message {
+      align-items: center;
+      background-color: #0082ca;
+      color: #fff;
+      display: flex;
+      height: 152px;
+      justify-content: center;
+      padding: 0 20px;
+
+      p {
+        font-size: 16px;
+        line-height: 1.38;
+        text-align: center;
+
+        b {
+          font-weight: bold;
+        }
+      }
+    }
+  }
 }
 
 .pagination {
