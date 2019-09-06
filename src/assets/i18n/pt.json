@@ -23,6 +23,11 @@
       "footer": {
         "call": "Conversar com"
       }
-    }
+    },
+    "message": [
+      "A hospedagem do seu cãozinho estará coberta pela",
+      "Garantia Veterinária DogHero",
+      "de até R$5.000 para emergências."
+    ]
   }
 }
