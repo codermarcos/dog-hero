@@ -47,6 +47,9 @@
             "styles": [
               "src/styles/main.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": ["src/styles"]
+            },
             "scripts": [],
             "es5BrowserSupport": true
           },
@@ -98,6 +101,9 @@
             "styles": [
               "src/styles/main.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": ["src/styles"]
+            },
             "scripts": [],
             "assets": [
               {
