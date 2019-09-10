@@ -2,7 +2,7 @@ import { AppPageHeader } from './header.po';
 import { browser, logging } from 'protractor';
 
 describe(
-  'workspace-project App',
+  'App Header',
   () => {
     let page: AppPageHeader;
 
