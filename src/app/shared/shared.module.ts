@@ -17,12 +17,22 @@ import {
   PaginationComponent
 } from 'src/app/shared/components/pagination/pagination.component';
 
+import {
+  HeroHighlightIconDirective
+} from 'src/app/shared/directives/hero-highlight-icon/hero-highlight-icon.directive';
+
+import {
+  MainFooterComponent
+} from 'src/app/shared/components/main-footer/main-footer.component';
+
 const shared: (any[] | Type<any>)[] = [
+  HeroHighlightIconDirective,
   MainHeaderComponent,
   PaginationComponent,
   PaginationComponent,
   SearchBoxComponent,
   CardHeroComponent,
+  MainFooterComponent,
 ];
 
 @NgModule({
