@@ -1,4 +1,10 @@
 export enum HighlightName {
+  loyal_customers,
+  supervision,
+  room_type,
+}
+
+export enum HighlightIcon {
   loyal_customers = 'repeat-guests',
   supervision = '24h',
   room_type = 'flat',
