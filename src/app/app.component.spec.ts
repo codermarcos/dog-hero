@@ -18,6 +18,7 @@ describe(
         () => {
           translateService = {
             use(lang: string): Observable<any> { return; },
+            setDefaultLang(lang: string): Observable<any> { return; },
           };
 
           heroService = {
@@ -58,6 +59,7 @@ describe(
 
           spyOn(heroService, 'get').and.returnValue({ subscribe() {} });
           spyOn(translateService, 'use').and.returnValue({ subscribe() {} });
+          spyOn(translateService, 'setDefaultLang').and.returnValue({ subscribe() {} });
 
           TestBed
             .configureTestingModule({
