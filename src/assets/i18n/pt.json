@@ -21,13 +21,17 @@
     },
     "cardHero": {
       "footer": {
-        "call": "Conversar com"
+        "call": "Conversar com {{first_name}}"
       }
     },
-    "message": [
-      "A hospedagem do seu cãozinho estará coberta pela",
-      "Garantia Veterinária DogHero",
-      "de até R$5.000 para emergências."
-    ]
+    "message": "A hospedagem do seu cãozinho estará coberta pela <b>Garantia Veterinária DogHero</b> de até R$5.000 para emergências.",
+    "footer": {
+      "message": "Os anfitriões que mais se destacam na comunidade recebem a medalha de <b>Super-Herói</b> no perfil."
+    }
+  },
+  "Apartment": "Apê",
+  "highlight": {
+    "loyal_customers": "{{value}} Clientes fiés",
+    "room_type": "{{value}}"
   }
 }
