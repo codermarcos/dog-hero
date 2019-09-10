@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { NgxPaginationModule } from 'ngx-pagination';
-import { TranslateService } from '@ngx-translate/core';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { TranslateService, TranslateModule } from '@ngx-translate/core';
 
 import { AppComponent } from 'src/app/app.component';
 
-import { I18nModule } from 'src/app/i18n/i18n.module';
+import { loader } from 'src/app/i18n/loader.translate';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 import { MockService } from 'src/app/services/mock/mock.service';
@@ -19,7 +19,7 @@ import { HeroService } from 'src/app/services/hero/hero.service';
   ],
   imports: [
     InMemoryWebApiModule.forRoot(MockService, { passThruUnknownUrl: true }),
-    I18nModule.forRoot(),
+    TranslateModule.forRoot({ loader }),
     NgxPaginationModule,
     HttpClientModule,
     BrowserModule,
