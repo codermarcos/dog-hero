@@ -1,5 +1,6 @@
 import { Observable } from 'rxjs';
 import { TestBed, async } from '@angular/core/testing';
+import { TranslateService } from '@ngx-translate/core';
 import { Component, Input, Pipe, PipeTransform } from '@angular/core';
 
 import { Heroes } from 'src/models/heroes';
@@ -10,9 +11,15 @@ describe(
   'AppComponent',
   () => {
     let heroService: Partial<HeroService>;
+    let translateService: Partial<TranslateService>;
+
     beforeEach(
       async(
         () => {
+          translateService = {
+            use(lang: string): Observable<any> { return; },
+          };
+
           heroService = {
             get(params?: object, id: string = ''): Observable<Heroes> { return; }
           };
@@ -42,14 +49,22 @@ describe(
             @Input() paginator;
           }
 
+          @Pipe({ name: 'translate' })
+          class TranslatePipeMock implements PipeTransform {
+            transform(): string {
+              return 'translated';
+            }
+          }
 
           spyOn(heroService, 'get').and.returnValue({ subscribe() {} });
+          spyOn(translateService, 'use').and.returnValue({ subscribe() {} });
 
           TestBed
             .configureTestingModule({
               declarations: [
                 PaginationComponent,
                 CardHeroComponent,
+                TranslatePipeMock,
                 PaginateMock,
                 AppComponent,
               ],
@@ -57,6 +72,10 @@ describe(
                 {
                   provide: HeroService,
                   useValue: heroService,
+                },
+                {
+                  provide: TranslateService,
+                  useValue: translateService,
                 }
               ],
             })

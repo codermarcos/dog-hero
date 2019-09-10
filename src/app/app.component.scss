@@ -5,8 +5,12 @@
 }
 
 .list-heros {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 
   li {
+    max-width: 480px;
     margin-bottom: 16px;
 
     &.list-heros--empty {
@@ -27,16 +31,14 @@
         font-size: 16px;
         line-height: 1.38;
         text-align: center;
-
-        b {
-          font-weight: bold;
-        }
       }
     }
   }
 }
 
 .pagination {
+  background-color: #fff;
   display: flex;
   justify-content: center;
+  padding: 16px;
 }
