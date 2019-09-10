@@ -1,6 +1,7 @@
 <div class="card-hero__header">
   <figure class="card-hero__photo">
-    <img [src]="hero.user?.image_url">
+    <img class="photo" [src]="hero.user?.image_url">
+    <img class="medal" *ngIf="hero.is_superhero" src="https://www.doghero.com.br/assets/images/icons/super-host.svg">
   </figure>
   <div class="card-hero__profile">
     <h3>{{ hero.user?.first_name }}</h3>
@@ -27,9 +28,17 @@
     <p>{{ hero.last_review?.body | truncate : 60 : '...' }}</p>
   </blockquote>
   <figure class="card-hero__photo">
-    <img [src]="hero.last_review?.client_image_url">
+    <img class="photo" [src]="hero.last_review?.client_image_url">
   </figure>
 </div>
+<ul class="card-hero__highlights">
+  <ng-container *ngFor="let highlight of hero.highlights">
+    <li *ngIf="highlight.value">
+      <i class="icon" [appHeroHighlightIcon]="highlight.name"></i>
+      <p [translate]="'highlight.' + highlight.name" [translateParams]="{ value: highlight.value | translate }"></p>
+    </li>
+  </ng-container>
+</ul>
 <div class="card-hero__footer">
-  <a class="button" href="https://wa.me/5511971353293">{{ 'app.cardHero.footer.call' | translate }} {{ hero.user?.first_name }}</a>
+  <a class="button" href="https://wa.me/5511971353293" translate [translateParams]="hero.user">app.cardHero.footer.call</a>
 </div>

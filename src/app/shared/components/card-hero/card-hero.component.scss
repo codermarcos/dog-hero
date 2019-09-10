@@ -5,17 +5,20 @@
   display: flex;
   flex-wrap: wrap;
   padding: 16px;
-  margin-bottom: 16px;
 }
 
 .card-hero__header,
 .card-hero__last-review,
-.card-hero__footer {
+.card-hero__footer,
+.card-hero__highlights {
   width: 100%;
+  max-width: 480px;
   display: flex;
 }
 
 .card-hero__header {
+  position: relative;
+
   figure {
     width: 64px;
     height: 64px;
@@ -112,8 +115,32 @@
   overflow: hidden;
   border-radius: 100%;
 
-  img {
+  .photo {
     width: 100%;
+  }
+
+  .medal {
+    bottom: 5px;
+    position: absolute;
+    left: 40px;
+  }
+}
+
+.card-hero__highlights {
+  color: rgba(0, 0, 0, 0.24);
+  height: 56px;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.38;
+
+  li {
+    align-items: center;
+    display: flex;
+    margin-right: 13px;
+
+    i {
+      margin-right: 5px;
+    }
   }
 }
 
@@ -123,7 +150,6 @@
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.12);
     background-color: transparent;
-    margin-top: 18px;
     width: 100%;
     font-size: 14px;
     font-weight: bold;
