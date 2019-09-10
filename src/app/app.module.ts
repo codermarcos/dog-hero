@@ -27,6 +27,7 @@ import { HeroService } from 'src/app/services/hero/hero.service';
   ],
   providers: [
     HeroService,
+    loader,
   ],
   bootstrap: [AppComponent],
 })
