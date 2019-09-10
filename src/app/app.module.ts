@@ -19,7 +19,7 @@ import { HeroService } from 'src/app/services/hero/hero.service';
   ],
   imports: [
     InMemoryWebApiModule.forRoot(MockService, { passThruUnknownUrl: true }),
-    TranslateModule.forRoot(),
+    TranslateModule.forRoot({ loader }),
     NgxPaginationModule,
     HttpClientModule,
     BrowserModule,
