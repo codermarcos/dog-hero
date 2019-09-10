@@ -20,6 +20,7 @@ export class AppComponent {
     private hero: HeroService,
     private translate: TranslateService,
   ) {
+    this.translate.setDefaultLang('pt');
     this.translate.use('pt');
   }
 

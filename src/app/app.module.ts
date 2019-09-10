@@ -30,8 +30,4 @@ import { HeroService } from 'src/app/services/hero/hero.service';
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule {
-  constructor(translate: TranslateService) {
-    translate.setDefaultLang('pt');
-  }
-}
+export class AppModule {}
