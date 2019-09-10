@@ -1,26 +1,26 @@
-<button [ngClass]="{ open: open }" [title]="'app.header.open' | translate" (click)="toggle()">
+<button [ngClass]="{ open: open }" [title]="'app.header.open' | translate" (click)="toggle()" tabindex="0">
   <span></span><span></span><span></span>
 </button>
-<img src="/images/group-5.png" [alt]="'app.header.logo' | translate" srcset="">
-<nav [ngClass]="{ open: open }">
-  <ul>
-    <li>
-      <a href="https://www.doghero.com.br/" translate>app.header.menu.1</a>
+<img src="/images/group-5.png" [alt]="'app.header.logo' | translate">
+<nav [ngClass]="{ open: open }" aria-label="main" role="navigation">
+  <ul role="menu">
+    <li role="presentation">
+      <a role="menuitem" href="https://www.doghero.com.br/" tabindex="1" translate>app.header.menu.1</a>
     </li>
-    <li>
-      <a href="https://www.doghero.com.br/busca" translate>app.header.menu.1</a>
+    <li role="presentation">
+      <a role="menuitem" href="https://www.doghero.com.br/busca" tabindex="2" translate>app.header.menu.1</a>
     </li>
-    <li>
-      <a href="https://love.doghero.com.br/" translate>app.header.menu.2</a>
+    <li role="presentation">
+      <a role="menuitem" href="https://love.doghero.com.br/" tabindex="3" translate>app.header.menu.2</a>
     </li>
-    <li>
-      <a href="https://store.doghero.com.br/" translate>app.header.menu.3</a>
+    <li role="presentation">
+      <a role="menuitem" href="https://store.doghero.com.br/" tabindex="4" translate>app.header.menu.3</a>
     </li>
-    <li>
-      <a href="https://www.doghero.com.br/como-funciona" translate>app.header.menu.4</a>
+    <li role="presentation">
+      <a role="menuitem" href="https://www.doghero.com.br/como-funciona" tabindex="5" translate>app.header.menu.4</a>
     </li>
-    <li>
-      <a href="https://suporte.doghero.com.br/busca" translate>app.header.menu.5</a>
+    <li role="presentation">
+      <a role="menuitem" href="https://suporte.doghero.com.br/busca" tabindex="6" translate>app.header.menu.5</a>
     </li>
   </ul>
 </nav>

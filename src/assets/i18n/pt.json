@@ -1,7 +1,7 @@
 {
   "app": {
     "header": {
-      "open": "Clique aqui para abrir o menu",
+      "open": "Abrir o menu de navegação",
       "logo": "Logo Dog Hero",
       "menu": [
         "Entrar",
@@ -26,6 +26,7 @@
     },
     "message": "A hospedagem do seu cãozinho estará coberta pela <b>Garantia Veterinária DogHero</b> de até R$5.000 para emergências.",
     "footer": {
+      "medal": "Medalha de herói",
       "message": "Os anfitriões que mais se destacam na comunidade recebem a medalha de <b>Super-Herói</b> no perfil."
     }
   },
