@@ -5,6 +5,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from 'src/app/app.component';
 
@@ -21,6 +22,7 @@ registerLocaleData(locale, 'pt');
   ],
   imports: [
     InMemoryWebApiModule.forRoot(MockService, { passThruUnknownUrl: true }),
+    BrowserAnimationsModule,
     NgxPaginationModule,
     HttpClientModule,
     BrowserModule,
