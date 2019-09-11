@@ -25,8 +25,13 @@ import {
   MainFooterComponent
 } from 'src/app/shared/components/main-footer/main-footer.component';
 
+import {
+  HeroHighlightTextDirective
+} from 'src/app/shared/directives/hero-highlight-text/hero-highlight-text.directive';
+
 const shared: (any[] | Type<any>)[] = [
   HeroHighlightIconDirective,
+  HeroHighlightTextDirective,
   MainHeaderComponent,
   PaginationComponent,
   PaginationComponent,
