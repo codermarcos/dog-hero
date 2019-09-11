@@ -18,7 +18,10 @@ export class AppComponent {
 
   constructor(
     private hero: HeroService,
-  ) {}
+    translate: TranslateService,
+  ) {
+    translate.use('pt');
+  }
 
   public search(filters: { [key: string]: string }) {
     this.hero
