@@ -91,6 +91,14 @@
             }
           }
         },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "dog-hero:build",
+            "outputPath": "locale",
+            "i18nLocale": "pt"
+          }
+        },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
