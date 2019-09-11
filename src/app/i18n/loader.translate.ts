@@ -4,7 +4,7 @@ import * as pt from 'src/assets/i18n/pt.json';
 import { TranslateLoader } from '@ngx-translate/core';
 
 export const Loader: Provider = {
-  useClass: class implements TranslateLoader {
+  useValue: {
     getTranslation(): Observable<any> {
       return of(pt);
     }
