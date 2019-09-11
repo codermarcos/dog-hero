@@ -7,7 +7,7 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 
 import { AppComponent } from 'src/app/app.component';
 
-import { loader } from 'src/app/i18n/loader.translate';
+import { Loader } from 'src/app/i18n/loader.translate';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 import { MockService } from 'src/app/services/mock/mock.service';
@@ -19,7 +19,7 @@ import { HeroService } from 'src/app/services/hero/hero.service';
   ],
   imports: [
     InMemoryWebApiModule.forRoot(MockService, { passThruUnknownUrl: true }),
-    TranslateModule.forRoot({ loader }),
+    TranslateModule.forRoot(),
     NgxPaginationModule,
     HttpClientModule,
     BrowserModule,
@@ -27,6 +27,7 @@ import { HeroService } from 'src/app/services/hero/hero.service';
   ],
   providers: [
     HeroService,
+    Loader,
   ],
   bootstrap: [AppComponent],
 })
