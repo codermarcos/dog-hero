@@ -1,16 +1,13 @@
-import { NgModule } from '@angular/core';
 import locale from '@angular/common/locales/pt';
+import { NgModule, LOCALE_ID } from '@angular/core';
 import { registerLocaleData } from '@angular/common';
 import { NgxPaginationModule } from 'ngx-pagination';
-import { TranslateModule } from '@ngx-translate/core';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 
-
 import { AppComponent } from 'src/app/app.component';
 
-import { Loader } from 'src/app/i18n/loader.translate';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 import { MockService } from 'src/app/services/mock/mock.service';
@@ -24,15 +21,14 @@ registerLocaleData(locale, 'pt');
   ],
   imports: [
     InMemoryWebApiModule.forRoot(MockService, { passThruUnknownUrl: true }),
-    TranslateModule.forRoot({ loader: Loader }),
     NgxPaginationModule,
     HttpClientModule,
     BrowserModule,
     SharedModule,
   ],
   providers: [
+    { provide: LOCALE_ID, useValue: 'pt' },
     HeroService,
-    Loader,
   ],
   bootstrap: [AppComponent],
 })

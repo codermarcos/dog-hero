@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
 
 import { Heroes } from 'src/models/heroes';
 import { HeroService } from 'src/app/services/hero/hero.service';
@@ -18,10 +17,7 @@ export class AppComponent {
 
   constructor(
     private hero: HeroService,
-    translate: TranslateService,
-  ) {
-    translate.use('pt');
-  }
+  ) {}
 
   public search(filters: { [key: string]: string }) {
     this.hero
