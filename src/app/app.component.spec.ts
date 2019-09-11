@@ -1,6 +1,7 @@
 import { Observable } from 'rxjs';
 import { TestBed, async } from '@angular/core/testing';
 import { Component, Input, Pipe, PipeTransform } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { Heroes } from 'src/models/heroes';
 import { AppComponent } from 'src/app/app.component';
@@ -61,6 +62,7 @@ describe(
                 PaginateMock,
                 AppComponent,
               ],
+              imports: [BrowserAnimationsModule],
               providers: [
                 {
                   provide: HeroService,

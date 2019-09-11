@@ -1,6 +1,7 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { TruncateModule } from '@yellowspot/ng-truncate';
 import { Pipe, PipeTransform, Directive, Input } from '@angular/core';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { CardHeroComponent } from 'src/app/shared/components/card-hero/card-hero.component';
 
@@ -51,7 +52,8 @@ describe(
                 TranslatePipeMock,
               ],
               imports: [
-                TruncateModule
+                TruncateModule,
+                BrowserAnimationsModule,
               ],
             })
             .compileComponents();
