@@ -1,7 +1,17 @@
+export enum HighlightValue {
+  Apartment = 'Apartamento'
+}
+
 export enum HighlightName {
   loyal_customers,
   supervision,
   room_type,
+}
+
+export enum HighlightText {
+  loyal_customers = 'Clientes fiéis',
+  supervision = 'Supervisão 24h',
+  room_type = '',
 }
 
 export enum HighlightIcon {
