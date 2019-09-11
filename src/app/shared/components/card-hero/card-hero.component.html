@@ -1,6 +1,6 @@
 <div class="card-hero__header">
   <figure class="card-hero__photo">
-    <img class="photo" [src]="hero.user?.image_url">
+    <img class="photo" [src]="hero.user?.image_url" [@fadeInAnimation]>
     <img class="medal" *ngIf="hero.is_superhero" src="https://www.doghero.com.br/assets/images/icons/super-host.svg">
   </figure>
   <div class="card-hero__profile">
@@ -28,7 +28,7 @@
     <p>{{ hero.last_review?.body | truncate : 60 : '...' }}</p>
   </blockquote>
   <figure class="card-hero__photo">
-    <img class="photo" [src]="hero.last_review?.client_image_url">
+    <img class="photo" [src]="hero.last_review?.client_image_url" [@fadeInAnimation]>
   </figure>
 </div>
 <ul class="card-hero__highlights">

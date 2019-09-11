@@ -1,11 +1,11 @@
 <header appMainHeader></header>
 <main role="main">
   <form appSearchBox (submit)="search($event)"></form>
-  <ul class="list-heros">
+  <ul class="list-heros" [@leftInAnimation]="heroes.length">
     <ng-container *ngFor="let hero of heroes | paginate: { itemsPerPage: paginator, currentPage: page }; let i = index;">
       <li appCardHero [hero]="hero"></li>
       <li class="list-heros--message" *ngIf="message === i">
-        <p i18n>A hospedagem do seu cãozinho estará coberta pela <b>Garantia Veterinária DogHero</b> de até R$5.000 para emergências.</p>
+        <p>A hospedagem do seu cãozinho estará coberta pela <b>Garantia Veterinária DogHero</b> de até R$5.000 para emergências.</p>
       </li>
     </ng-container>
     <li class="list-heros--empty" *ngIf="heroes.length === 0">0 Herois encontrados</li>
