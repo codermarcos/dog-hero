@@ -35,9 +35,6 @@ MIT
 @angular/platform-browser
 MIT
 
-@ngx-translate/core
-MIT
-
 @yellowspot/ng-truncate
 
 angular-in-memory-web-api
