@@ -18,11 +18,7 @@ export class AppComponent {
 
   constructor(
     private hero: HeroService,
-    private translate: TranslateService,
-  ) {
-    this.translate.setDefaultLang('pt');
-    this.translate.use('pt');
-  }
+  ) {}
 
   public search(filters: { [key: string]: string }) {
     this.hero
