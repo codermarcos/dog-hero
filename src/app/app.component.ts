@@ -13,7 +13,7 @@ import { LeftInAnimation } from 'src/app/shared/animations/left-in.animation';
 })
 export class AppComponent {
 
-  public readonly paginator = 4;
+  public readonly paginator = 10;
   public readonly message = Math.floor(this.paginator / 2) - 1;
   public heroes: Heroes = [];
   public page = 1;
