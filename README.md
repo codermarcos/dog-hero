@@ -73,18 +73,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <a href="/ngx-translate/core" target="_blank">@ngx-translate/core</a>
-      </td>
-      <td>
-      latest: <img src="https://badge.fury.io/js/%40ngx-translate%2Fcore.svg"/>
-      current: <b>11.0.1</b>
-      </td>
-      <td align="center" valign="middle">
-        For centralize texts in one place, and facilitate possible translations into other languages
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="middle">
         <a href="/angular/in-memory-web-api" target="_blank">@angular/in-memory-web-api</a>
       </td>
       <td>
@@ -100,7 +88,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
         <a href="/yellowspot/ng2-truncate" target="_blank">@yellowspot/ng-truncate</a>
       </td>
       <td>
-      latest: <img src="https://badge.fury.io/js/@yellowspot/ng-truncate.svg"/>
+      latest: <img src="https://badge.fury.io/js/%40yellowspot%2Fng-truncate.svg"/>
       current: <b>1.5.0</b>
       </td>
       <td align="center" valign="middle">
@@ -109,10 +97,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
     </tr>
     <tr>
       <td align="center" valign="middle">
-        <a href="/ng2-truncate" target="_blank">ngx-pagination</a>
+        <a href="/ngx-pagination" target="_blank">ngx-pagination</a>
       </td>
       <td>
-      latest: <img src="https://badge.fury.io/js/@yellowspot/ng-truncate.svg"/>
+      latest: <img src="https://badge.fury.io/js/ngx-pagination.svg"/>
       current: <b>1.5.0</b>
       </td>
       <td align="center" valign="middle">
