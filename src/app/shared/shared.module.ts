@@ -1,7 +1,6 @@
 import { NgModule, Type, ModuleWithProviders } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TruncateModule } from '@yellowspot/ng-truncate';
-import { TranslateModule } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
 
 import {
@@ -44,7 +43,6 @@ const shared: (any[] | Type<any>)[] = [
   declarations: [...shared],
   imports: [
     ReactiveFormsModule,
-    TranslateModule,
     TruncateModule,
     FormsModule,
     CommonModule,
