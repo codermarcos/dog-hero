@@ -2,11 +2,14 @@ import { Component } from '@angular/core';
 
 import { Heroes } from 'src/models/heroes';
 import { HeroService } from 'src/app/services/hero/hero.service';
+import { fadeInAnimation } from 'src/app/shared/animations/fade-in.animation';
+import { LeftInAnimation } from 'src/app/shared/animations/left-in.animation';
 
 @Component({
   selector: 'body[appMain]',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  animations: [fadeInAnimation, LeftInAnimation]
 })
 export class AppComponent {
 
