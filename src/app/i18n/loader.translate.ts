@@ -5,7 +5,9 @@ import { TranslateLoader } from '@ngx-translate/core';
 
 export const Loader: Provider = {
   useValue: {
-    getTranslation(): Observable<any> {
+    getTranslation(lang: string): Observable<any> {
+      console.log(pt);
+      console.log(lang);
       return of(pt);
     }
   },
