@@ -15,15 +15,12 @@ import {
 import {
   PaginationComponent
 } from 'src/app/shared/components/pagination/pagination.component';
-
 import {
   HeroHighlightIconDirective
 } from 'src/app/shared/directives/hero-highlight-icon/hero-highlight-icon.directive';
-
 import {
   MainFooterComponent
 } from 'src/app/shared/components/main-footer/main-footer.component';
-
 import {
   HeroHighlightTextDirective
 } from 'src/app/shared/directives/hero-highlight-text/hero-highlight-text.directive';
