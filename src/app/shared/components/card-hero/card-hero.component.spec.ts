@@ -24,8 +24,15 @@ describe(
           @Directive({
             selector: '[appHeroHighlightIcon]'
           })
-          class HeroHighlightIconMock {
+          class HeroHighlightIconMockDirective {
             @Input() appHeroHighlightIcon: any;
+          }
+
+          @Directive({
+            selector: '[appHeroHighlightText]'
+          })
+          class HeroHighlightTextMockDirective {
+            @Input() appHeroHighlightText: any;
           }
 
           @Pipe({ name: 'translate' })
@@ -38,8 +45,8 @@ describe(
           TestBed
             .configureTestingModule({
               declarations: [
-                TranslateDirectiveMock,
-                HeroHighlightIconMock,
+                HeroHighlightIconMockDirective,
+                HeroHighlightTextMockDirective,
                 CardHeroComponent,
                 TranslatePipeMock,
               ],
